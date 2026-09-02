@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "framer-install-auth",
+  "owner": "jeremylongshore",
+  "repo": "claude-code-plugins-plus-skills",
+  "path": "plugins/saas-packs/framer-pack/skills/framer-install-auth",
+  "branch": "main",
+  "sha": "e97ae08b992f90e2ed3a561a904896f87fb80c5c",
+  "source": "manual"
+}

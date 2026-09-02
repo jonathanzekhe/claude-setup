@@ -1,0 +1,126 @@
+# Memory Index
+## Garde-fous de travail
+- [Audit avant imiter](feedback_audit_avant_imiter_concurrent.md) ; [Maquette=visuel](feedback_mockup_visual_only_respect_backend.md) ; [Brand OS vrai backend](feedback_brvndlab_brandos_no_invent_real_backend.md)
+- [Convex CLI ment](reference_convex_cli_false_not_found.md) ; [CLI 1.42.1](feedback_convex_cli_1341_lies_use_1421.md) ; [prod partagé](feedback_brvndlab_convex_shared_deploy_rule.md) ; [pitfalls](feedback_convex_deploy_pitfalls.md) ; [ctx.auth](feedback_convex_identity_from_ctx.md)
+- [Sync moodboard](feedback_moodboard_sync_rule.md) ; [Mood board officiel](feedback_brvndlab_one_vercel_moodboard.md) ; [Notion source](feedback_preserve_notion_source_of_truth.md)
+- [DA Brvndlab guardrail](feedback_brvndlab_da_guardrail.md) ; [Modale confirm scellée](feedback_brvndlab_confirm_dialog_scelle.md)
+- [Jamais inventer feature](feedback_never_invent_features.md) ; [Never modify](feedback_never_modify_existing.md) ; [périmètre](feedback_scope_strict_only_what_asked.md)
+- [Lya 2 temps](feedback_validation_deux_temps_lya.md) ; [Lya partenaire](feedback_lya_partenaire_reflexion_noyau.md) ; [Lya 1-3 phrases](feedback_lya_reponses_chirurgicales_1a3_phrases.md) ; [Lya signal d'arrêt](feedback_lya_signal_arret_creusement.md)
+- [Scripts: recommander](feedback_refonte_scripts_discernement_recommandations.md) ; [Brand OS mémoire Lya](project_brvndlab_brandos_versioning_memory.md)
+- [Pas d'initiatives](feedback_ne_pas_prendre_initiatives.md) ; [Deploy sur validation](feedback_never_deploy_prod_without_explicit_validation.md) ; [Pas demander arrêt](feedback_ne_jamais_demander_si_on_sarrete.md) ; [Pas écraser Thomas](feedback_never_overwrite_thomas_work.md)
+- [Main + rail](feedback_verify_deploy_lineage_before_prod.md) ; [Repo git](feedback_brvndlab_repo_path_and_git_rules.md) — ~/dev/brvndlab-claude
+- [Direct prod](feedback_brvndlab_work_directly_on_prod.md) ; [preview-first gros](feedback_brvndlab_preview_first_mode_loupe.md) ; [Itérer prod](feedback_iterate_on_prod_not_mockup_variants.md)
+- [Toujours push Vercel](feedback_always_push_to_vercel.md) ; [auto-deploy](project_brvndlab_vercel_no_autodeploy.md) ; [vercel env → printf](feedback_vercel_env_printf.md) ; [vercel bot off](reference_vercel_git_comments_api_off.md) ; [push live = Git+Convex+Vercel](feedback_push_live_deploy_full.md)
+- [Composition outils métier](feedback_regle_composition_outils_metier.md)
+- [Vérifier LIVE agent](feedback_toujours_verifier_le_live_avec_un_agent.md) ; [jusqu'au live](feedback_verify_until_live.md) ; [Smoke test API](feedback_smoke_test_api_design.md) ; [3 tests backend](feedback_backend_three_tests_rule.md) ; [E2E robot Clerk](reference_e2e_robot_brvndlab.md)
+- [Respecter propositions](feedback_respect_ma_propre_proposition.md) ; [Sync doc CTO](feedback_sync_stack_doc_on_every_change.md)
+- [VividFlow ≠ Brvndlab](feedback_vividflow_vs_brvndlab.md) ; [Chrome](feedback_open_in_chrome.md) ; [liens cliquables](feedback_liens_cliquables_mockups.md) ; [preview en tête](feedback_always_link_preview_url.md)
+- [Checklist](feedback_decomposer_messages_en_checklist.md) ; [Courtes](feedback_jonathan_reponses_courtes.md) ; [terse debug](feedback_debug_live_terse_mode.md) ; [No back-forth](feedback_no_back_and_forth.md) ; [finir par section](feedback_finish_section_completely.md)
+- [Brainstorm existant](feedback_brainstorm_start_from_existing.md) ; [puis mockup](feedback_workflow_brainstorm_then_mockup.md) ; [brainstorm-loop défaut](feedback_skill_brainstorm_loop_default.md)
+- [Skill Correction SaaS](feedback_skill_correction_saas.md) — méthode de travail par défaut sur le produit
+- [Tout en mémoire](feedback_save_all_conversations.md) ; [Posture UX/UI](feedback_posture_ux_ui_pro.md) ; [Autonomie maximale](feedback_autonomy_rule.md)
+- [Thomas](user_thomas_cto.md) / [Erwan CTO](user_erwan_cto.md) ; [pas diversion sécu](feedback_no_security_diversions.md)
+## Contenu / copy
+- [Libellés courts](feedback_labels_courts_actions.md) ; [Titre court angles](feedback_brvndlab_titre_court_brainstorm.md) ; [Pas de sous-texte titres](feedback_no_subtext_under_titles.md)
+- [Couleur = validation](feedback_no_color_without_validation.md) ; [JAMAIS d'em-dash](feedback_no_em_dash.md) ; [Mots-béquilles interdits](feedback_mots_bequilles_interdits.md)
+- [Funnel vouvoiement](feedback_jonathan_voice_funnel_vous.md) ; [Interview client tu](feedback_interview_client_tutoiement.md) ; [SaaS mature](feedback_tone_mature_saas.md) ; [Voix on jamais je](feedback_voice_on_not_je.md) ; [Form pas agence](feedback_form_copy_tone_saas.md)
+- [Français de France](feedback_francais_france_only.md) ; [accents](feedback_accents_francais_obligatoires.md) ; [Pas temporel](feedback_no_temporal_assumptions.md) ; [Com chirurgicale](feedback_communication_chirurgicale_humaine.md)
+- [Chat brainstorm continu](feedback_chat_brainstorm_continu.md) ; [Format clarté brainstorm](feedback_brainstorm_format_clarte.md)
+- [Transcripts reformatés](feedback_transcript_always_formatted.md) ; [Live status messages](feedback_live_status_messages.md) ; [Vocal ponct](feedback_vocal_ponctuation_obligatoire.md)
+- [Image-gen verrous](feedback_image_gen_prompts_locks.md) ; [Jamais condenser](feedback_never_condense_for_visual.md) ; [ni couper](feedback_condenser_jamais_supprimer_texte.md)
+## UI/UX & design
+- [No scrollbar](feedback_no_visible_scrollbar.md) ; [UI/UX core](feedback_ui_ux_principles_core.md) ; [Zéro redondance](feedback_zero_redondance.md)
+- [Less is more premium](feedback_less_is_more_premium.md) ; [Old money premium](feedback_design_old_money_premium.md) ; [No dark override](feedback_no_blanket_dark_overrides.md)
+- [Couleurs TOFU/MOFU/BOFU](feedback_funnel_colors.md) ; [No logos plateformes](feedback_no_external_brand_logos.md) ; [No avatars leads](feedback_no_avatars_on_leads.md) ; [Photo profil client](feedback_client_profile_photo.md)
+- [Mockups=structure](feedback_mockups_are_structure_not_final_design.md) ; [validé = done](feedback_validated_is_done.md) ; [Skill design-max](reference_design_max_skill.md) ; [21st.dev](reference_21st_dev_components.md)
+- [Séparation modules](project_brvndlab_module_separation.md) ; [cross-module modal](project_brvndlab_cross_module_modals.md) ; [Journal validé](project_brvndlab_journal_validated.md) ; [Redondances recadrées](project_brvndlab_brandos_redondances_recadrees.md)
+- [Réglages/Admin scellés](project_brvndlab_reglages_admin_conso_sealed.md) ; [Home KPI par période](project_brvndlab_home_kpi_periode.md) ; [Intégrations≠module](project_brvndlab_integrations_not_a_module.md)
+- [/angles = biblio brainstorms](project_brvndlab_angles_is_brainstorm_library.md)
+- [Funnel classé par l'IA](project_brvndlab_funnel_classification_ia.md) ; [Fix scripts CTA/funnel](project_brvndlab_script_length_cta_funnel_fix.md) ; [Boucle brainstorm 19/07](project_brvndlab_brainstorm_loop_2026_07_19.md) ; [Brouillon serveur](project_brvndlab_brainstorm_drafts_2026_07_19.md)
+- [YT OAuth](project_brvndlab_youtube_oauth_google_validation.md) ; [LI repli DMA](project_brvndlab_linkedin_audience_dma_fallback.md) ; [10 titres A/B](project_brvndlab_titres_ab_10.md)
+## Brand OS & direction Brvndlab
+- [Refonte DA](project_brvndlab_visual_direction_rework.md) ; [ADN illu SCELLÉ](project_brvndlab_illustration_style_sealed.md)
+- [Home direction](project_brvndlab_home_direction.md) ; [ASSISTANT-FIRST](project_brvndlab_assistant_first_direction.md) ; [Home D3 Relief](project_brvndlab_brainstorm_relief_title.md)
+- [ICP/audience](project_brvndlab_icp_audience.md) ; [business pas entert.](project_brvndlab_icp_business.md) ; [Brand OS central](project_brvndlab_brand_os_central.md) ; [Brand DNA](project_brvndlab_brand_dna_synthesis.md) ; [naming](feedback_brand_os_naming.md)
+- [Brique 2 style com](project_brvndlab_brainstorm_style_communication_agent.md) ; [Section 10 Perso](project_brvndlab_section10_personnalite.md)
+- [2e brain écriture](project_brvndlab_seconde_brain_comment_ecrire.md) ; [modèle optimisation](project_brvndlab_seconde_brain_optimisation.md) ; [2 niveaux oral/écrit](project_brvndlab_seconde_brain_two_levels_channels.md)
+- [AUDIT chaîne IA 30/07](project_brvndlab_audit_chaine_ia_2026_07_30.md) ; [AUDIT brainstorm 31/07](project_brvndlab_audit_brainstorm_mode_2026_07_31.md) ; [Discernement 31/07](project_brvndlab_discernement_axe1_axe2.md)
+- [AUDIT scripts 14/08](project_brvndlab_audit_scripts_brain_convergence_illisible.md) ; [AUDIT chaîne scripts 17/08](project_brvndlab_audit_chaine_scripts_2026_08_17.md)
+- [Copywriting SCELLÉ 14/08](project_brvndlab_chaine_copywriting_scellee.md) ; [Mémoire de VIE 30/07](project_brvndlab_memoire_de_vie_tiroir_vecu.md)
+- [FOND Lya](project_brvndlab_fond_learning_lya.md) ; [Hook règles durcies](project_brvndlab_hook_rules_hardened.md)
+- [Tagline typewriter Brand OS](project_brvndlab_brandos_tagline_typewriter.md) — 5 phrases scellées, toujours « ... »
+- [Ordre modules verrou](project_brvndlab_module_order_rank_lock.md) ; [Audience seconde ligne](project_brvndlab_audience_seconde_ligne.md) ; [Sync audience](project_brvndlab_audience_sync_regen.md)
+- [Autosave undo brainstorm](project_brvndlab_undo_and_autosave_brainstorming.md) ; [couche editedSections](project_brvndlab_script_editedsections_layer.md) ; [Versioning scripts](project_brvndlab_script_versioning_undo_redo.md)
+- [Base génération LIVE](project_brvndlab_base_generation_validated_live.md) ; [Base neutre-SOLIDE](project_brvndlab_generation_base_neutre_solide.md)
+- [Pipeline Notion](project_brvndlab_pipeline_redesign_notion.md) ; [Script depuis angle](project_brvndlab_script_video_flow.md) ; [Radar Feed variante C](project_brvndlab_radar_feed_validated.md) ; [Benchmark YT scellé](project_brvndlab_yt_benchmark_kpis_sealed.md)
+## Brvndlab features / produit
+- [Chantier Rush↔Pipeline 25/08](project_brvndlab_chantier_rush_pipeline_2026_08_25.md) — synchro scellée, variantes, état des vagues
+- [Rush téléchargement 3 qualités](project_brvndlab_rush_download_3_qualites.md) — Original/1080p/720p, chacun livre vraiment sa qualité
+- [Rush suppression page fichier](project_brvndlab_rush_suppression_page_asset.md) — bouton Supprimer sur /rush/a, corbeille 30j
+- [Règles Publier 24/08](feedback_publier_regles_rappel_24_08.md) — logo sidebar intouchable, pipeline=média seul, pas de placeholders
+- [Chantier Publier 24/08](project_brvndlab_chantier_publier_2026_08_24.md) — 20/23 livrés, dossier brvndlab-mockups.vercel.app/brvndlab-dossier-publier
+- [Zernio platformSpecificData](reference_zernio_platformspecificdata.md) — couverture/collab/trial/audio vérifiés doc
+- [Plafond IA](project_brvndlab_ai_daily_limit_admin_bypass.md) — accurate-cormorant-297 ; [IA par feature](project_brvndlab_ai_model_strategy.md) ; [/admin/clients](project_brvndlab_admin_clients_access.md)
+- [Smart Links](project_brvndlab_smart_links_logic_validated.md) ; [domaine](project_brvndlab_smart_link_domain_strategy.md) ; [Taxonomie Intégr.](project_brvndlab_integrations_taxonomy.md) ; [Stripe](project_brvndlab_stripe_integration_validated.md)
+- [Publi native](project_brvndlab_publication_native.md) ; [Leads](project_brvndlab_leads_logic.md) ; [Transactions RO](project_brvndlab_transactions_positioning.md) ; [Calendrier génér.](project_brvndlab_calendar_integration_generic.md)
+- [KPI cash](feedback_kpi_cash_collecte.md) ; [Pricing](project_brvndlab_pricing_final.md) ; [0 dévalorisation](feedback_pricing_zero_devaluation.md) ; [Affiliation](project_brvndlab_affiliation.md)
+- [Messaging collab](project_brvndlab_messaging_collaborators_only.md) ; [refonte](project_brvndlab_messaging_refonte.md) ; [Rôles](project_brvndlab_collaborator_roles.md) ; [Miniamaker](project_brvndlab_miniamaker_form_workflow.md)
+- [Archives scellées](project_brvndlab_archives_rules.md) ; [Brouillon/pipeline](project_brvndlab_brouillon_vs_pipeline.md) ; [Réfs Insp script](project_brvndlab_script_references_inspiration.md) ; [Versions même titre](feedback_versions_meme_titre_numerotation.md)
+- [Client Intel](project_brvndlab_client_intel_v2_validated.md) ; [Retention](project_brvndlab_retention_strategy.md) ; [Mémoire dorée](project_brvndlab_memoire_doree_arme.md) ; [Mémoire universelle](project_brvndlab_memoire_universelle_contenus.md)
+- [VividFlow LTD](project_brvndlab_legal_entity.md) ; [accès fermé](project_brvndlab_access_control.md) ; [0 bug chat](feedback_zero_bug_chat.md) ; [Holding](project_brvndlab_holding_vision.md)
+- [PAS de TikTok](feedback_no_tiktok.md) ; [YT long only](feedback_youtube_long_format_only.md) ; [Choix réseau](feedback_choix_reseau_obligatoire_avant_publication.md)
+- [B-Roll structure](project_brvndlab_broll_structure_feature.md) ; [Rush insuppr.](project_brvndlab_rush_dossiers_insupprimables.md) ; [B-rolls étagères](project_brvndlab_broll_multi_etageres.md)
+- [Mockups pub](reference_brvndlab_mockups_public_url.md) ; [Supermemory](reference_supermemory_integration.md) ; [ICP Gadzhi](reference_icp_iman_gadzhi.md) ; [Audit liens](project_brvndlab_links_audit_2026_07_08.md)
+- [Story insights Zernio](project_brvndlab_story_insights_zernio.md) — route /insights par story, unavailable=zéros à ignorer
+- [Chantier Performances 25/08](project_brvndlab_performances_chantier_2026_08_25.md) — fiche story, filtres formats, archive vidéo à vie, fix accès collab
+- [Chantier vocal 25/08](project_brvndlab_chantier_performances_vocal_2026_08_25.md) — 19 tâches 20/20 ; stickers=impossible API ; concurrents IG: OAuth Meta à faire
+- [Réseaux source unique](project_brvndlab_social_connection_single_truth.md)
+- [Liens morts rail collab](project_brvndlab_acces_liens_morts_rail.md) — Pipeline/To do réparés, Brand OS consultation seule (27/08)
+- [Chaîne affichage UNIQUE](feedback_brvndlab_chaine_affichage_unique_reseaux.md)
+- [Contamination IG OAuth fix 25/08](project_brvndlab_ig_oauth_contamination_fix.md) — callback exige compte déclaré, purge faite
+- [IG ordre lecture](project_brvndlab_instagram_ordre_lecture.md)
+- [Métriques croisées](feedback_metriques_croisees_reseaux.md) — IG↔YT↔LI
+- [Analytics format + thème](project_brvndlab_analytics_format_theme.md)
+- [Résilience chaînes ext](project_brvndlab_resilience_chaines_externes.md)
+- [Abonnés LI extension](project_brvndlab_linkedin_abonnes_extension_source.md)
+- [Inspiration IG autoplay](project_brvndlab_inspiration_ig_autoplay.md) ; [Relais IG stable](reference_brvndlab_ig_relay_stable.md) — http://76.13.52.163/ig-relay ; [Carte vide 20/08](project_brvndlab_inspiration_carte_vide_2026_08_20.md)
+## Pipeline / cycle de vie contenu
+- [Cycle de vie pipeline 26/08](project_brvndlab_pipeline_cycle_de_vie_2026_08_26.md) — désassociation→draft+vidéo revient Validé, variantes associables, confettis publication, reparerContenusVides
+## VividFlow
+- [Carte du funnel](reference_vividflow_direction_page.md) : vividflow-funnel.vercel.app, schéma complet + cas + profils
+- [Quiz funnel Lepelletier](reference_quiz_funnel_framework_lepelletier.md)
+- [Page direction VividFlow 20/08](reference_vividflow_direction_page.md)
+- [PIVOT 20/08 croissance IA](project_vividflow_pivot_2026_08_20_partenaire_croissance.md)
+- [Repos + tracking Meta](project_vividflow_repos_et_tracking_meta.md)
+- [VividFlow IA](project_vividflow.md) ; [En-têtes Linea](feedback_vividflow_section_headers_linea_spec.md) ; [Home 19/07](project_vividflow_home_restructure_2026_07_19.md)
+- [Section La solution](project_vividflow_section_solution.md) ; [Comment ça marche](project_vividflow_section_comment_ca_marche.md) ; [Études de cas](project_vividflow_etudes_de_cas_section.md) ; [YouTube section](project_vividflow_youtube_section.md)
+- [FAQ vidéos home](project_vividflow_faq_videos_home.md) ; [source /comprendre](project_vividflow_faq_videos.md) ; [Bloc final CTA](project_vividflow_final_cta_block.md)
+- [Diagnostic IA](project_vividflow_diagnostic_funnel.md) ; [Quiz2 alias manuel](project_vividflow_quiz2_deploy.md) ; [retargeting](project_vividflow_quiz2_retargeting_refonte.md)
+- [site-mockups promote](reference_site_mockups_promote_required.md)
+- [SEO](project_vividflow_positionnement_officiel.md) ; [Brand OS](project_vividflow_brand_os_positionnement.md) ; [9 agents IA](project_vividflow_agents_ecosystem.md) ; [TPE/PME](project_vividflow_brandos_audience.md)
+- [5 icônes](feedback_vividflow_5_icones.md) ; [Motion overlay](project_vividflow_motion_overlay_2026_05_27.md) ; [DA Linea](project_vividflow_site_da_linea_harmonise.md)
+- [R1 VÉRITÉ](project_vividflow_r1_direction_source_of_truth.md) ; [script oral](project_vividflow_r1_script_oral.md) ; [Projection /<nom>](project_vividflow_client_projection_url.md)
+- [Acquisition été 26](project_vividflow_acquisition_ete_2026.md) ; [/offres étape 1](project_vividflow_offres_etape1_sealed.md) ; [refonte via site-mockups](project_vividflow_offres_deploy_target.md)
+- [Schmid TEMPLATE STRICT](feedback_schmid_template_strict.md) ; [Template R2](project_r2_template_system.md) ; [R2 transcript](feedback_r2_transcript_complet_et_anticontamination.md) ; [Deploy pitchdeck-r2](project_r2_pitchdeck_deploy_architecture.md) ; [Squelette v2 R2](project_r2_squelette_v2_scelle.md) ; [App preview R2](project_r2_app_preview_maquette.md) ; [Deck AGCI Gallo](project_agci_deck_alexandre_gallo.md) ; [Deck Inkcloth](project_r2_deck_inkcloth_emmanuel.md) ; [Démo SaaS/client](project_r2_demo_saas_par_client.md) ; [R2 sans Bibliothèque](feedback_r2_demo_pas_de_bibliotheque.md)
+## Scraping refs
+- [Hub Neocell](project_scraping_refs_neocell.md) ; [Copy Neocell→VF](feedback_copy_neocell_vividflow_rules.md) — SUISSE ; [SPEC DA Linea](project_scraping_refs_da_linea_spec.md)
+- [Briques réelles](project_vividflow_grille_six_poles_entreprise.md) ; [Deck outbound 04/08](project_vividflow_outbound_deck_refonte.md)
+## Meta Ads
+- [Quiz Dirigeants](project_meta_ads_quiz_campagne_etat.md) ; [Quiz landing v2](project_vividflow_quiz_landing_v2_and_two_projects.md)
+- [Leads quiz → DataOS, PAS de GHL](project_vividflow_quiz_leads_dataos_no_ghl.md)
+## Bold Shift Collective (Rafaela)
+- [Bold Shift business](project_boldshift_collective_business.md) — Jonathan associé
+- [Todo Bold Shift](project_todo_boldshift_rafaela.md) — clever-lion-641
+- [Acquisition 19/08](project_boldshift_strategie_acquisition_2026_08_19.md)
+- [PULP fitness duo](project_pulp_saas_fitness_duo.md) — perso
+## VPS / Hermes / perso
+- [Todo Thomas+Jonathan](project_todo_vf_thomas_jonathan.md) — todo-vf.vercel.app
+- [Rush template](project_brvndlab_rush_template_pipeline.md) ; [Rush](project_rush_video_library.md) ; [Réserve YT](project_reserve_yt_inspiration_library.md)
+- [VPS + gbrain](project_vividflow_vps_systems_map.md) ; [DataOS Meta Ads](project_vividflow_dataos_meta_ads_integration.md) ; [Hermes cleanup](project_hermes_cleanup_27_05.md) ; [coûts](project_hermes_openrouter_cost_source.md)
+- [Doc Stack CTO](project_brvndlab_stack_doc_cto.md) ; [Cockpit multi-biz](project_brainstorm_portfolio_cockpit_pivot.md) ; [notes retour](feedback_brainstorm_portfolio_claude_notes_invite_retour.md)
+- [MCP DaVinci Resolve](reference_resolve_mcp_davinci.md) — ~/dev/resolve-claude-mcp, scope user
+- [User Jonathan](user_jonathan.md) ; [Matériel vidéo](user_jonathan_materiel_video.md) ; [Skool MCP](reference_skool_mcp_setup.md) ; [Wispr meetings](reference_wispr_flow_meetings_local.md)
+- [RealElec Santos](project_realelec_offre_santos.md)
+- [Sous-comptes siège](project_brvndlab_sous_comptes_siege_fait_foi.md)
+- [Audit iClose+tracker 25/08](project_brvndlab_iclose_tracker_audit_2026_08_25.md) — iClose pas cassé, Mochi=Trakyo, cookie JS plafonné ITP 7j, corrections livrées non déployées
+- [Post retour pin carousel](project_jonathan_comeback_pin_carousel.md) — structure 9 slides scellée, agence et MRR hors pin

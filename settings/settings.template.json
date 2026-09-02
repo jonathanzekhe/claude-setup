@@ -1,0 +1,53 @@
+{
+  "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": "REMPLACER_PAR_TON_TOKEN_GITHUB"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Write(*)",
+      "Edit(*)",
+      "Read(*)",
+      "mcp__plugin_telegram_telegram__reply",
+      "mcp__plugin_telegram_telegram__edit_message",
+      "mcp__plugin_telegram_telegram__react",
+      "mcp__plugin_telegram_telegram__download_attachment",
+      "mcp__claude_ai_Gmail__gmail_create_draft",
+      "mcp__claude_ai_Gmail__gmail_read_message",
+      "mcp__claude_ai_Gmail__gmail_search_messages",
+      "mcp__claude_ai_Google_Calendar__gcal_create_event",
+      "mcp__claude_ai_Google_Calendar__gcal_list_events",
+      "mcp__claude_ai_Google_Calendar__gcal_update_event"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "model": "claude-fable-5[1m]",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "case \"$CLAUDE_PROJECT_DIR\" in *\"/Documents/Claude AI/Brvndlab\"*) echo \"BLOQUÉ: repo iCloud déprécié. Utilise ~/dev/brvndlab-claude/brvndlab-app.\" >&2; exit 2;; esac"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "claude-mem@thedotmack": true
+  },
+  "extraKnownMarketplaces": {
+    "thedotmack": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/thedotmack/claude-mem.git"
+      }
+    }
+  },
+  "effortLevel": "high",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "light",
+  "agentPushNotifEnabled": true
+}

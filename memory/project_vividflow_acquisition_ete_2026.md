@@ -1,0 +1,88 @@
+---
+name: project_vividflow_acquisition_ete_2026
+description: "Stratégie d'acquisition VividFlow scellée juillet 2026 — social funnel + quiz retargeting + setteuse, VSL YouTube à la rentrée"
+metadata: 
+  node_type: memory
+  type: project
+  originSessionId: 8a63f3ad-5be5-4f15-8637-ba4d05d5bbf8
+---
+
+Architecture d'acquisition scellée le 2026-07-03 en brainstorm (contexte : redémarrage à zéro sur le marché suisse, Jonathan inconnu, marché à éduquer, été = personne ne booke).
+
+**Juillet (phase warm-up)** :
+- Social funnel Meta : 2-3 pubs max qui envoient vers le profil Instagram (pas vers un booking). Contenu quotidien (1-2 posts/j + stories plusieurs fois/j) + YouTube 2 vidéos/semaine.
+- Quiz en RETARGETING uniquement (pas à froid) : 2 pubs quiz max. Total 5 pubs pour ne pas diluer les 30 CHF/j (~900/mois, historique : 60-70+ leads/mois, 3-5 appels qualifiés/jour).
+- Sortie du quiz : booking direct pour les chauds (créneaux proches sous 48-72h, l'intention se périme en 72h, "on vous rappelle plus tard" = fabrique du no-show).
+- SETTEUSE sur tout lead quiz qui n'a pas booké : appel rapide (dans l'heure si possible), qualifie sur les problématiques du quiz, payée AU SHOW (intérêts alignés). Insight clé validé par l'historique : les dirigeants ne bookent pas seuls mais décrochent le téléphone ; ils ne papotent PAS en DM (setting DM agressif écarté) ; ils suivent en silence puis bookent un jour.
+- Métriques du mois : taille du bassin de retargeting + nb de leads quiz (PAS les followers). Lien booking reste accessible en bio/stories sans être poussé.
+
+**V2 (chantier parallèle, ne bloque pas le lancement)** : deck personnalisé auto = quiz enrichi de champs business → l'IA remplit le template outbound (template-outbound.vividflow.co, 8 pages à champs coverName/p2Phrase/chips, exemple cc-concept) → deck déployé + envoyé (WhatsApp) → signal dans le data OS → la setteuse appelle avec le prétexte "vous avez reçu votre projection, qu'en pensez-vous ?". C'est une DÉMONSTRATION du produit, pas un lead magnet. Écartés : groupe WhatsApp de nurturing (trop lourd, dirigeants discrets), systèmes self-serve poussés (les leads ne vont pas au bout).
+
+**Rentrée (août-sept)** : VSL YouTube full direct response avec le message gagnant validé sur Meta en juillet. YouTube ads = canal roi B2B mais exige VSL éprouvée → séquence Meta d'abord (labo pas cher), YouTube ensuite. (Trajectoire Sabri Suby étudiée : inconnu = outbound/chasse d'abord, paid+marque après ; funnel signature ad → valeur gratuite → quiz qualifiant → call ; pubs face-cam bold, ~10 hooks testés/vidéo, claims chiffrés jamais d'adjectifs, ennemi désigné, reverse risk "30% ou gratuit".)
+
+**RÈGLE PUBS (scellée)** : JAMAIS mentionner VividFlow dans les publicités — tout passe par la personal brand de Jonathan (pubs sur son compte perso, le retargeting c'est lui). Pas de promesse d'argent garantie type "50 000 CHF ou rien à payer" (code vendeur de tapis pour les Suisses, détruit la confiance) ; le "7 jours" oui, les CHF garantis non. Chiffres en chiffres (7, 2 minutes, 100%), jamais en lettres.
+
+**SCRIPT PUB QUIZ (SCELLÉ 2026-07-04, tourné en face-cam personal brand)** :
+"Ça, c'est pour les dirigeants suisses.
+Opérateur de croissance IA. Vous n'êtes pas encore familiers avec ce terme ? Normal : on est les premiers à le faire en Suisse. Concrètement, voilà à quoi ça ressemble.
+Mon équipe et moi, on installe dans votre entreprise une IA qui opère vos tâches à faible valeur. Vos relances, vos devis, votre reporting, le tri de vos demandes. Tout ce qui mange les journées de vos équipes sans faire grandir votre entreprise.
+Et ça ne s'arrête pas là. Cette IA se connecte à tous vos outils métiers, et vos équipes reçoivent des copilotes au quotidien. Elles se recentrent sur ce qui compte, et elles avancent plus vite.
+Le meilleur pour la fin : tout ce qu'on installe chez vous est à vous, à 100%. Nous, on vient pour une seule raison : trouver ce qui vous freine et libérer votre capacité de croissance.
+Nos clients appellent ça la liberté sans les contraintes.
+Et pour voir ce que ça donnerait chez vous, on a préparé un diagnostic. 2 minutes, quelques questions simples, et vous découvrez ce qu'on installerait, concrètement, dans votre entreprise.
+Le lien est juste en dessous."
+Codes de voix validés en construisant : "Vous n'êtes pas encore familiers" (le "encore" = ils ont manqué qqch) ; jamais "je m'explique" en excuse, direct "concrètement voilà à quoi ça ressemble" ; pas de "Résultat :" (vu et revu) ; chaque phrase doit préparer la suivante (zéro micro-moment hors contexte) ; pas de prédictions inventées ("au bout de 2 semaines") ; "concrètement" répété = écho signature voulu ; "on est notre premier client" ÉCARTÉ de ce script (redondant avec "nos clients appellent ça", à réserver aux VSL longues) ; pas de "si ça matche on avance ensemble" (nul pour des dirigeants suisses).
+
+**Quiz V3 amélioré (contexte, chantier en cours côté Jonathan)** : ajout d'un tracker de métier plus spécifique (niche entreprise) + SIMULATION IA en sortie : à partir des réponses, simulation du type d'agent installable chez eux + simulation de conversation avec cet agent + profit map pour calculer le ROI.
+
+**RÈGLE TOUCHPOINTS RETARGETING (scellée)** : chaque pub de retargeting doit taper un ANGLE TOTALEMENT DIFFÉRENT des autres et du contenu quotidien (posts + stories nourrissent déjà le pitch principal). Ne jamais refaire "assistant vs système" ou re-pitcher l'offre dans chaque pub. La BANQUE D'ANGLES = les Problématiques du Brand OS (app.brvndlab.com/brand-os/problemes) : ~300 problématiques du dirigeant TPE/PME, écrites de son point de vue, sur 2 axes (activité quotidienne / freins à investir dans la solution) × 3 niveaux de conscience (Froid = pas conscient ou déni ; Tiède = cherche une sortie ; Chaud = prêt à agir, manque de méthode). Exemples forts : "Il sent que son entreprise tourne autour de lui plutôt qu'autour d'un système qui tourne sans lui" ; "Il ne voit plus la différence entre travailler dans son entreprise et travailler sur son entreprise" ; "Il a recruté pour se libérer du terrain, mais reste le premier interlocuteur à chaque problème" ; "Il veut confier l'exécution à une infrastructure IA, mais craint de perdre le contrôle qualité". Méthode pub : partir d'UNE problématique verbatim comme hook, dérouler le miroir, sortie diagnostic.
+
+**PUB 2 (SCELLÉE 2026-07-05, validée "parfaite")** — angle : LES DEUX TYPES DE DIRIGEANTS (comparaison, séparation distincte "d'un côté / de l'autre", jamais "le premier/le second") :
+"Depuis que l'IA est entrée dans les entreprises suisses, il y a deux types de dirigeants.
+D'un côté, celui qui utilise l'IA pour aller un peu plus vite. Il rédige ses mails avec, il résume ses documents, il gratte des minutes. De l'autre, celui qui a installé l'IA dans son entreprise. Ses relances partent seules, ses devis sortent le jour même, son reporting se fait sans lui.
+La différence se voit dans le quotidien de leurs équipes, et elle se lit dans leur chiffre d'affaires. Et cet écart va continuer de se creuser, tant que les premiers se reposeront sur des outils qui ne leur appartiennent pas.
+Parce que ChatGPT et Claude ne connaissent ni votre entreprise, ni vos outils, ni vos clients. Ce sont des assistants, pas des systèmes.
+Installer un système dont vous êtes propriétaire, c'est exactement le travail d'un Opérateur de croissance IA.
+Et pour savoir de quel côté vous êtes, on a préparé un diagnostic. 2 minutes. Le lien est juste en dessous."
+(Version précédente "Tout le monde veut être bien payé / ajouter ne structure pas" ÉCARTÉE : pas de "truc", thèse déjà martelée par le contenu quotidien. L'angle "agenda miroir / plafond" aussi écarté : "je ne parle pas comme ça". Le hook "Tout le monde veut être bien payé, personne ne pense à celui qui paie les salaires" reste une accroche que Jonathan aime, recyclable en organique.)
+
+**PUB 3 (SCELLÉE 2026-07-05, 10/10 validé)** — angle : SHADOW AI (peur n°1 des Suisses, angle vierge sur le marché) :
+"On ne va pas se mentir, la moitié de vos collaborateurs utilisent déjà l'IA dans votre entreprise. Pour rédiger des mails, résumer des documents, préparer des offres. Et ils ont raison de le faire, ça les rend plus rapides.
+Sauf que parfois, ce qui part dans ces outils, c'est un contrat, un dossier client, des chiffres qui n'auraient jamais dû sortir. Et c'est là que ça devient sérieux. Ces informations atterrissent sur des serveurs que vous ne contrôlez pas, et la confiance que vos clients vous accordent depuis des années tient sur cette discrétion. Elle se gagne en dix ans, et se perd en un mail.
+Donc la vraie question n'est plus de savoir si l'IA doit entrer dans votre entreprise. Elle y est déjà. La question, c'est qui la pilote.
+Ça, c'est le travail d'un Opérateur de croissance IA. Installer l'IA proprement, un système connecté à vos outils, encadré, et qui vous appartient à 100%. Vos équipes gardent la vitesse, vous gardez le contrôle.
+Et pour voir à quoi ça ressemblerait chez vous, on a préparé un diagnostic. 2 minutes. Le lien est juste en dessous."
+
+**Logique du trio de retargeting (scellée)** : 3 portes différentes dans la tête du dirigeant — Pub 1 = l'identité (qui je suis, Opérateur de croissance IA, premiers en Suisse) ; Pub 2 = la cause (pourquoi il est coincé, ajouter ne structure pas) ; Pub 3 = le risque (shadow AI, qui pilote). Angle écarté : "responsable IA externalisé / arrêtez de devenir experts" (recouvrait la pub 1) → recyclé en contenu organique LinkedIn. Codes supplémentaires appris : préciser les conséquences ("ça ne change rien" → "à quoi" : au temps opérationnel) ; conséquences PROFONDES pas superficielles ("données un peu partout" → la confiance client, 10 ans à construire, 1 mail à détruire) ; pas de "sans vous le dire" (faux, tout le monde le sait) ; ne pas nommer ChatGPT dans l'usage des employés, décrire les usages ; "Ça, c'est le travail d'un Opérateur de croissance IA" comme pivot anti-vente ; chaque pub = sortie diagnostic reformulée différemment.
+
+**SOCIAL FUNNEL 1 (SCELLÉE 2026-07-06)** — angle : L'ÉCHIQUIER (observation terrain + test + mécanisme), CTA = abonnement, jamais de formulaire :
+"Après avoir échangé avec des dirigeants de grands groupes et de PME, j'ai compris quelque chose de très simple.
+D'un côté, il y a celui qui déplace les pièces sur l'échiquier. De l'autre, celui qui est devenu une pièce de son propre échiquier.
+Et cette différence n'a rien à voir avec le nombre de personnes qu'ils emploient, les automatisations qu'ils ont installées ou les outils qu'ils utilisent. C'est une question de qui porte l'opérationnel.
+Et pour savoir de quel côté vous êtes, posez-vous la bonne question : est-ce que vous pourriez doubler votre volume de clients demain, sans doubler vos heures ?
+Dans la plupart des entreprises, la réponse est non, parce que la croissance est indexée sur le dirigeant. Chaque nouveau client ajoute de la charge, chaque charge remonte vers lui, et la seule variable d'ajustement, c'est le temps dont il dispose. C'est exactement ça, être une pièce de son propre échiquier.
+Alors si c'est votre cas... [CTA remplacé, voir version finale ci-dessous]"
+
+**SOCIAL FUNNEL 1 — VERSION FINALE VALIDÉE (2026-07-06)** (la version compressée à 170 mots a été REJETÉE "trop de clarté enlevée" — la longueur ~210 mots est acceptée quand la clarté l'exige) :
+"Après avoir échangé avec des dirigeants de grandes et petites entreprises, j'ai compris quelque chose de très simple.
+D'un côté, il y a celui qui déplace les pièces sur l'échiquier. De l'autre, celui qui est devenu une pièce de son propre échiquier.
+Cette différence n'a rien à voir avec le nombre de personnes qu'ils emploient, les automatisations qu'ils ont installées ou les outils qu'ils utilisent. C'est une question de qui porte l'opérationnel.
+Et pour savoir de quel côté vous êtes, demandez-vous simplement : est-ce que vous pourriez doubler votre volume de clients demain, sans doubler vos heures ?
+Dans la plupart des entreprises, la réponse est non, parce que la croissance est indexée sur le dirigeant. Chaque nouveau client ajoute de la charge, chaque charge remonte vers lui, et la seule variable d'ajustement, c'est le temps dont il dispose. C'est exactement ça, être une pièce de son propre échiquier.
+Aujourd'hui, grâce à l'IA opérationnelle, les cartes sont redistribuées. Les dirigeants peuvent enfin confier l'opérationnel à un système, et récupérer de la vraie capacité de croissance.
+Si vous avez une entreprise qui fait déjà du chiffre, et que vous vous demandez comment la structurer pour grandir sans que tout repose sur vous, c'est littéralement mon métier. Abonnez-vous à mon compte, où je vous explique exactement comment je fais ça."
+CTA final = mécanique Minozan adaptée (qualification "fait déjà du chiffre" + désir "grandir sans que tout repose sur vous" + "c'est littéralement mon métier" + gain du follow "où je vous explique exactement comment"). Règles CTA : toujours dire ce qu'on gagne à s'abonner ; vouvoiement partout (jamais de bascule tu) ; pas besoin de dire "Instagram" sur Instagram. Max ~170 mots par script social.
+Leçons de construction validées : question test "doubler votre volume de clients demain sans doubler vos heures" = phrase que Jonathan juge très forte ; "Dans la plupart des entreprises la réponse est non" (constat marché, JAMAIS "si votre réponse est non" = ton quiz interdit) ; pas de triple martèlement "c'est ça" ; variable d'ajustement = LE TEMPS pas l'énergie (cohérence avec "heures") ; pas de vraies phrases en "ni...ni...ni" ; récit David/Goliath ABANDONNÉ pour la social funnel (trop récit, "je ne croche pas, je suis mon propre ICP") au profit du business-first + image échiquier ; monter les paliers émotionnels un par un sans se presser vers le pitch.
+
+**SOCIAL FUNNEL 2 — SCELLÉE (2026-07-06)** — angle : SOUVERAINETÉ / marre de dépendre des solutions coûteuses (le problème que Jonathan entend le plus chez ses clients). Forme volontairement différente de la social 1 (pas de hook "conversations", pas d'image filée) :
+"Toutes les entreprises suisses en ont marre de dépendre de solutions qui leur coûtent des centaines, voire des milliers de francs par mois. Marre de payer des charges à des CRM bancals qui opèrent comme des mafias, et qui les obligent à s'adapter à leur manière de travailler, jamais l'inverse.
+Et après des années à payer, faites le bilan : qu'est-ce qui vous appartient ? Rien. Les outils ne sont pas à vous, vos données sont stockées chez eux, et partir vous coûterait plus cher que rester. Le pire, c'est que tout le monde trouve ça normal.
+Ce modèle-là arrive à sa fin. Avec l'IA, une entreprise peut aujourd'hui construire son propre système : ses process, sa data, son fonctionnement, à elle, à 100%.
+Et c'est ce que je construis pour les entreprises suisses. Abonnez-vous à mon compte, où je vous explique exactement comment reprendre la main."
+Notes : "comme des mafias" assumé par Jonathan (générique, mais variante de secours si modération Meta tique : "qui vous tiennent captifs"). Règle passe de pronom : 3e personne pour le constat, "vous" au moment du bilan. Conséquence profonde du captif = "partir vous coûterait plus cher que rester". Angles écartés pour cette pub : "démocratiser le rôle" (recouvrait retargeting 1), "acquisition vs absorption" (refusé), désirs génériques temps/marge (refusés au profit du vécu client souveraineté).
+
+**SET COMPLET (5 vidéos scellées, prêtes à tourner)** : Retargeting quiz = 1) Identité ("Ça, c'est pour les dirigeants suisses" / Opérateur de croissance IA) ; 2) Les deux types de dirigeants ; 3) Shadow AI. Social funnel = 1) L'échiquier ; 2) Souveraineté. + Script FAQ 10 slides + vidéo thank you page. Prochaines étapes possibles : tournage (hooks en 2-3 variantes façon Suby), UTM par pub, vérifier visuellement le prefill iClosed sur quiz2, set up Meta lead form.
+
+**Directions des 3 pubs social funnel (cadre initial, remplacé par ce qui précède)** : 1 pub par niveau de conscience — Éveil (les leaders utilisent déjà l'IA en interne, effet "attends quoi ?"), Preuve (un agent en action, avant/après concret), Thèse (Brand OS : la puissance des grands désormais accessible, cartes redistribuées). Jonathan veut du BOLD, levier = son expertise contenu + Brvndlab.
+
+**Quiz2 (construit et LIVE le 2026-07-03)** : https://quiz2.vividflow.co (repo ~/dev/vividflow-quiz2, projet Vercel vividflow-quiz2, deploy `vercel deploy --prod --yes --scope jonathanzekhe-4288s-projects`). Copie de quiz.vividflow.co (qui reste INTACT) avec : 7 questions = secteur, taille d'équipe, CA, rôle, échéance + "Où perdez-vous le plus de temps ?" (1 seul département, le superlatif force la priorisation = l'or de la setteuse) + tâches spécifiques du département choisi (multi-select + bouton Continuer, options conditionnelles via optionsFor). PAS de page coordonnées : la sortie du quiz va DIRECT sur iClosed (seul formulaire du funnel). Capture de leads en AMONT via formulaire instantané Meta Lead Ads (pré-rempli auto, modèle déjà éprouvé par Jonathan avec sa setteuse) + synchro native Meta→CRM ; le bouton de remerciement du formulaire Meta envoie vers le quiz. Décisions : psychologie des taps = auto-persuasion voulue (chaque tap est une micro-admission du problème) ; les autres départements se creusent en appel ; champs métier/site retirés avec la page coordonnées. ATTENTION : /api/ghl-webhook renvoie 404 sur quiz ET quiz2 (webhook mort, leads non-bookés du vieux funnel perdus) → c'est le formulaire Meta qui règle la capture. Prefill iClosed (name/full_name/email/phone) codé dans buildIclosedUrl mais inutilisé sans coordonnées amont. CRM = data OS VividFlow.

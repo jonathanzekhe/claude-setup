@@ -1,0 +1,27 @@
+---
+name: project_vividflow_etudes_de_cas_section
+description: "Section Études de cas vividflow.co (#etudes) — desktop onglets par famille + cartes crème pleines, mobile cartes boutons empilées"
+metadata:
+  node_type: memory
+  type: project
+  originSessionId: e36b2602-f661-40d5-ab17-c52cb8081ab9
+---
+
+Section **Études de cas** (`#etudes` dans index.html du repo **site-mockups** ~/dev/site-mockups, alias vividflow.co). Sert à ranger les 15 pages d'études par 3 axes de tri.
+
+**Problème initial (Jonathan)** : l'ancien tableau (bandes label crème à gauche + cellules à numéro) faisait « des chiffres partout », on ne voyait pas que c'était cliquable. Refonte validée en 2 temps (mobile puis desktop), section par section.
+
+**Titre SCELLÉ** : `L'IA appliquée à<br class="br-mob"> <em>votre métier</em>` — « votre métier » à la ligne UNIQUEMENT en mobile (via `.br-mob{display:none}` + media <640px), en italique Instrument Serif. Label mono gris « Études de cas » au-dessus.
+
+**DESKTOP SCELLÉ (2026-07-21, « Style 3 · push it »)** : logique **onglets** (une seule famille affichée à la fois → section courte, pas de gros slides) + **cartes crème pleines** (Style 3). Parcours de validation : mockups edc-desktop-variants.html (grille/menu/pills) → « j'aime A et B » → edc-desktop-v2.html (blocs par famille : trop longs empilés) → « logique du D » edc-desktop-v3.html (onglets/colonnes/bandes) → **Jonathan choisit la logique D (onglets)** → edc-desktop-v4.html (4 styles de cartes en onglets) → **Style 3 · Cartes crème pleines** validé.
+- Onglets `.edc-tab` : label famille SEUL, **centrés** (`.edc-tabs justify-content:center`), petits (padding 8/16, font 13px, hauteur ~34px). Onglet actif = **fond noir #121212 + texte blanc** (inversé, comme le bouton « Voir toutes » du bas — `.edc-tab.on{background:#121212;border-color:#121212;color:#fff}`, le contour orange a été REJETÉ le 2026-07-21 : « je suis pas fan, quand je clique ça devient droit et le texte en blanc, inversé comme les boutons du bas »). 3 onglets : Par secteur / Par type d'entreprise / Par cas d'usage. **PAS d'icône devant, PAS de compteur « 5 »** (retirés le 2026-07-21 : « trop gros, plus petits, au milieu, sans icône, sans le chiffre 5 » — le compteur avait pourtant été demandé plus tôt, il a changé d'avis). `.edc-tic{display:none}` + `.edc-tcnt{display:none}` (markup conservé, juste masqué).
+- Cartes `.edc-cell` : fond crème `#F4F0EA`, bascule en **noir #121212 au survol** (texte blanc, icône halo blanc, flèche blanche), translateY(-3px). Icône métier crème→blanche, nom, flèche orange en bout. **Layout SCELLÉ = liste centrée une colonne** (Mockup A validé 2026-07-21) : `.edc-cells{display:flex;flex-direction:column;gap:12px;max-width:660px;margin:0 auto}`, les 5 cartes empilées et centrées. Historique des rejets pour ce layout (5 entrées = nombre IMPAIR) : grille 3-col fixe → trou à droite ; flex-wrap centré → « triangle » 3+2 rejeté (« tu me l'as mis en triangle, j'aime pas ») ; Mockup B (2 col + 5e pleine largeur) et Mockup C (5 tuiles sur une ligne) proposés mais Jonathan choisit **A · Liste centrée**. En mobile `.edc-cell{flex:1 1 auto;max-width:none}` + `.edc-cells max-width` naturel = pleine largeur.
+- Compteur « 5 » sur chaque onglet = demandé explicitement par Jonathan (« tu peux voir le nombre d'études, c'est intéressant »).
+
+**MOBILE SCELLÉ (2026-07-21) = MÊME logique que desktop** : les onglets filtrent aussi en mobile (`.edc-tabs{display:flex;flex-wrap:wrap}` — les 3 onglets wrappent : 2 sur la 1re ligne + 1 centré dessous à 390px), **une seule famille affichée à la fois** (le `.edc-band{display:block !important}` qui empilait les 3 a été RETIRÉ → les bandes reprennent `.edc-band{display:none}`/`.on{display:block}` pilotées par le même JS onglets). Labels de bande masqués en mobile (`.edc-bandlab{display:none}`, redondants avec l'onglet). Chaque `.edc-cell` reste une carte bouton blanche `flex-direction:row` : icône crème 40px + nom + flèche orange, ~70px, 1 ligne. Onglet actif = noir plein/texte blanc (comme desktop). Pas d'overflow (vérifié). Jonathan : « la même logique sur téléphone, les petits boutons et on filtre à chaque fois, c'est plus propre ». Icône « Avocats » = marteau de juge (l'ancienne balance rendait mal). **Un seul markup, un seul JS pour desktop ET mobile** : seule la mise en forme des cartes change via media query 1000px.
+
+**Implémentation (zéro duplication)** : un seul jeu de 15 liens `<a class="edc-cell">` (avec `.edc-cic` icône métier + `.edc-cnum` numéro caché + `.edc-cname` + `.edc-carr` flèche). Le CSS bascule desktop↔mobile à 1000px. JS onglets : boutons `.edc-tab[data-edc]` togglent `.on` sur les `.edc-band`. Les 15 slugs pointent vers `/etudes-de-cas/secteur|type-entreprise|cas-usage/...`. CTA pied : **UNIQUEMENT** « Voir toutes les études de cas » `.edc-all` (noir→orange hover, centré, padding 17/48 élargi). Le bouton « Réserver un audit » a été **retiré de cette section** (2026-07-21, demande Jonathan) — il déséquilibrait le pied.
+
+**Piège Vercel vécu (2026-07-21)** : `vercel --prod --yes` a parfois un exit code 1 / pas de ligne « Aliased » alors que le déploiement est READY en target production. Parade : récupérer l'URL `site-mockups-xxx.vercel.app` dans la sortie JSON et forcer `vercel alias set <url> vividflow.co` (→ « Success! vividflow.co now points to… »). Toujours vérifier en live après.
+
+Fichiers mockups (live, non prod) : edc-desktop-variants.html, edc-desktop-v2.html, edc-desktop-v3.html, edc-desktop-v4.html, edc-mobile-variants.html. index.html fait foi.
